@@ -1,12 +1,20 @@
-body {
-  width: 1080px;
-  margin: 0px auto;
-}
+// FIXME This will break Foundation
+// body {
+//   width: 1080px;
+//   margin: 0px auto;
+// }
+// SOLUTION
+$row-width: 1080px;
 
 p {
   color: blue;
 }
 
+// FIXME This will break Foundation
+// .columns {
+//   border: 1px solid black;
+// }
+// SOLUTION
 .columns {
-  border: 1px solid black;
+  outline: 1px solid black;
 }
